@@ -12,24 +12,29 @@
       href="./images/favicon-32x32.png"
     />
 
+    <link rel="stylesheet" href="styles.css" />
+
     <title>Frontend Mentor | Order summary card</title>
   </head>
-  <body>
-    <main>
-      <section class="orderCard">
-        <img src="#" alt="" />
+  <body class="flex">
+    <main class="flex">
+      <section class="orderCard flex">
+        <img src="images/illustration-hero.svg" alt="" />
         <h1>Order Summary</h1>
         <p>
           You can now listen to millions of songs, audiobooks, and podcasts on
           any device anywhere you like!
         </p>
-        <div class="subscriptionBox">
+        <div class="subscriptionBox flex">
           <img src="#" alt="" />
-          <div class="planPrice"></div>
+          <div class="planPrice">
+            <h3>Annual Plan</h3>
+            <p>$59.99/year</p>
+          </div>
           <a href="#">Change</a>
         </div>
         <button>Proceed to Payment</button>
-        <button>Cancel Order</button>
+        <a href="#" class="cancel">Cancel Order</a>
       </section>
     </main>
   </body>

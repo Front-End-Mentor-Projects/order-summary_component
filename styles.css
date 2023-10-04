@@ -34,3 +34,35 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/* Main styles */
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 100vh;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.orderCard {
+  border: 1px solid black;
+  width: 86%;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.orderCard img {
+  border-radius: 30px 30px 0 0;
+}
+
+.subscriptionBox {
+  flex-direction: row;
+}
