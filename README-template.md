@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Front-End-Mentor-Projects/order-summary_component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://darling-gingersnap-68593c.netlify.app/)
 
 ## My process
 
